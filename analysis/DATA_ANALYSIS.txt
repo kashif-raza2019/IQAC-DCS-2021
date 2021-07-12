@@ -1,0 +1,8 @@
+// DAILY VISITS
+SELECT SUBSTR(`timestamp`,1,10) AS `DATE` , count(*) AS `VISITS` FROM `log` GROUP BY `DATE`;
+
+// DEPARTMENT WISE VIEWS
+SELECT `Username`,count(*) FROM `log` WHERE 1 GROUP BY `Username`;
+
+// PAGE WISE VIEWS
+SELECT substr(`url`,5,15) AS `PAGE`, count(*) FROM `log` WHERE 1 GROUP BY `PAGE`

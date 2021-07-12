@@ -1,0 +1,22 @@
+****THIS TEXT DOCUMENT CONSIST OF SOME IMPORTANT BREIFING BEFORE DEPLOYMENT OF APPLICATION TO THE SERVER****
+Project: Data Capturing System 2021,
+
+Prof. In-charge: Prof. PRATOSH BANSAL SIR, IQAC Co-ordinator
+(Current) Developers: 1. MD KASHIF RAZA 'ETC-A' IET-DAVV INDORE, kashifraza08012001@gmail.com (2019-2023) 
+                      2. SONAM KHURANA 'EI' IET-DAVV INDORE (2019-2023)
+(Previous Developer): 1. GOVIND CHAUDHARY 'IT/CS' IET-DAVV INDORE (2016-2020)
+                      2. PRAKHAR LONDHE 'IT/CS' IET-DAVV INDORE (2016-2020)
+
+
+List start from below: 
+    1. Changing of MySQL DB 'username' and 'password' and other fields in the credential.php (2 places)
+       and PRINT/criteria.php in Tables_in_t3 ---> Tables_in_'db-Name'.(IMP for AQAR and SSR Reports)
+       same in save_my_data/get_data.php
+       and same in validator/validate_links.php 
+      
+       functionality of setna.php
+    2. Adding the University Admin's Mail (for Superuser/ or DAVV) in 3 fields 
+        1. Technical Query (inside 'query' dir.)
+        2. Document Related Query (inside 'query' dir.)
+        3. 404.php (for reporting of 404-Error Page)
+        5. *****%%%%***** SSR C-233 upload is pending! (save233.php)*****%%%%*****

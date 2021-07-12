@@ -1,0 +1,58 @@
+/* 
+   Created By Kashif Raza, IET-DAVV ETC-A 2nd Year as of 2021 (4th Sem: 10-MAY-2021)
+   if any problem persist contact at: 19btc037@ietdavv.edu.in (Institute's Mail ID)
+*/
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: burlywood;
+    margin: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div{
+    border-radius: 8px;
+    padding: 10px;
+    background-color: seashell;
+    width: 95%;
+    margin: auto;
+}
+
+.empty-div{
+    width: 100%;
+    height: 5px;
+}
+
+.header-content{
+    width: 95%;
+    height: auto;
+    padding-left: auto;
+    padding-right: auto;
+    font-size: 27px;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+}
+
+.header-content img{
+    margin: 5px;
+    height: 150px;
+    width: 150px;
+}
+.header-content h2{
+    margin-left: 30px;
+}
+
+
+
+.required{
+    color: red;
+    font-size: medium;
+    font-weight: bold;
+}
+

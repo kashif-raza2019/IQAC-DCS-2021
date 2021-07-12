@@ -1,0 +1,48 @@
+
+
+                      DOCUMENTATION FOR THE DATA CAPTURING AND REPORTING SYSTEM FOR 
+                                  DEVI AHILYA VISHWAVIDYALAYA, INDORE
+
+Project: DCS-2021,                                Month/Year of Development:1 April, 2021 to 1 June, 2021
+
+Prof. In-charge: Prof. PRATOSH BANSAL SIR, IQAC Co-ordinator
+---------------------------------------------------------------------------------------------------------
+Current Developers:   1. MD KASHIF RAZA 'ETC-A' IET-DAVV INDORE, kashifraza08012001@gmail.com (2019-2023) 
+                      2. SONAM KHURANA 'EI' IET-DAVV INDORE (2019-2023)
+---------------------------------------------------------------------------------------------------------
+Previous Developer & Project Mentor: 1. GOVIND CHAUDHARY 'IT/CS' IET-DAVV INDORE (2016-2020)
+                                     2. PRAKHAR LONDHE 'IT/CS' IET-DAVV INDORE (2016-2020)
+---------------------------------------------------------------------------------------------------------
+
+                                        DOCUMENTATION FILE STARTS HEREON
+
+Date: 18-April-2021,
+---------------------------------------------------------------------------------------------------------
+Git-Repo: https://github.com/kashif-raza2019/Data-Capturing-System 
+        (Private Repo, to fork or to get details ask for permission from 'kashifraza08012001@gmail.com')
+---------------------------------------------------------------------------------------------------------
+Tech-Stack Used: 1. HTML5 + CSS3(with Bootstrap for UI), 2. Javascript (with JQuery & JQuery-UI)
+                 3. PHP (version 5+ above) (Object Oriented and Procedural Both) 
+                 4. MySQL Database 5. FPDF Library (For PDF Generation) 
+---------------------------------------------------------------------------------------------------------
+1. Index.php: for NAC-DCS Web Application consists of 2 Cards First Card-> for Logging In to Department or
+  Super-user dashboard, Second Card->for students/teachers/alumni/parents to fill respective forms/ surveys.
+  Upper Part in Header (Until the '#0E3778' ends and main body with class 'middleCard' for 2 cards as 
+  stated above).
+
+For DCS System Dashboard:
+  1.1) You will be headed towards 'login.php' where after entering correct 'username' & 'password' you will
+       be redirected towards your respective dashboard.
+       1.1.1) For SUPER USER:
+              page with url suffix: 'superuser/index.php' will be seen consists of various buttons arranged 
+              in a bootstrap md (medium) and sm (small) container. some containers are hidden being for 
+              future use (After year 2021 i.e. for 2022-2023 etc.)
+       1.1.2) For Department Administrator: 
+              page with url suffix: 'accept_notice.php' where Notice for All Department and or for particular 
+              department would be visible with 'NOTICE' heading with Blinking animation.
+              After Accepting the Notice, you will be redirected to 'homepage.php' which is the Dashboard for
+              particular department.
+              consists of AQAR PROGRESS, SSR PROGRESS, AQAR REPORT, SSR REPORT, OTHER FORMS (which consists
+              of Academic Audit, DQAC, Monthly Reporting and Feedbacks), and then Profile section which can also 
+              be visible after hovering in 'PROFILE' anchor tag to the right most side of the Page with a sticky 
+              back. 
