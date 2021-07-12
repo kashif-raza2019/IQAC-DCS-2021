@@ -1,8 +1,26 @@
 <?php
+    /*  For Devi Ahilya Vishwavidyalaya Server:
+    Forwarding this servername and username is strictly prohobited 
+    If you caught leaking this data strict then actions will be taken
+    ---------------------------!!---------------------------------
+    Warning!! Please do not change or delete this commented code!
+    ---------------------------------------------------------------
     $servername = "172.16.1.12";
     $username = "iqac";
     $password = "@z[dgdMw3_pviR51";
     $dbname = "iqac_dcs";//should be chaged accordingly
+    --------------------------!!----------------------------------
+    
+    */
+    
+    /*
+      For Your Local Computer create a database iqac_dcs and criteria_iqac_log 
+      and upload the database with the name stated as above!
+    */
+    $servername = "localhost:3306";
+    $username = "root";
+    $password = "";
+    $dbname = "iqac_dcs";
     $dbname_log = "criteria_iqac_log";
 
 function getUserIP(){
