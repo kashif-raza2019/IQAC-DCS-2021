@@ -1,4 +1,9 @@
 # IQAC-DCS-2021
+
+-- Added AQAR Directory with template pages!
+
+
+### Old Readme
 Internal Quality Assurance Cell, IQAC Project Data Capturing System.
 1. Fork Repo
 2. Clone It in you Computer
