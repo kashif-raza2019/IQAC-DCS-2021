@@ -1,6 +1,6 @@
 # IQAC-DCS-2021
 
--- Added AQAR Directory with template pages!
+- Added AQAR Directory with template pages!
 
 
 ### Old Readme
